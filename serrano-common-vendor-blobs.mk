@@ -40,7 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/samsung/serrano-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
@@ -131,16 +132,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serrano-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/serrano-common/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/serrano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/serrano-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/serrano-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/serrano-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/samsung/serrano-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/serrano-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/serrano-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/samsung/serrano-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/serrano-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/serrano-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/serrano-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/serrano-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/serrano-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/samsung/serrano-common/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/serrano-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
